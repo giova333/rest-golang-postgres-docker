@@ -1,11 +1,11 @@
 package main
 
 import (
+	"github.com/giova333/rest-golang-postgres-docker/configuration"
+	"github.com/giova333/rest-golang-postgres-docker/persistence"
+	"github.com/giova333/rest-golang-postgres-docker/web"
 	"log"
 	"net/http"
-	"rest/configuration"
-	"rest/persistence"
-	"rest/web"
 )
 
 func main() {

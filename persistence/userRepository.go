@@ -2,7 +2,7 @@ package persistence
 
 import (
 	"database/sql"
-	"rest/domain"
+	"github.com/giova333/rest-golang-postgres-docker/domain"
 )
 
 type UserRepository struct {

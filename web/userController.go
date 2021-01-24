@@ -2,12 +2,12 @@ package web
 
 import (
 	"encoding/json"
-	guuid "github.com/google/uuid"
+	"github.com/giova333/rest-golang-postgres-docker/configuration"
+	"github.com/giova333/rest-golang-postgres-docker/domain"
+	"github.com/giova333/rest-golang-postgres-docker/persistence"
+	"github.com/google/uuid"
 	"github.com/gorilla/mux"
 	"net/http"
-	"rest/configuration"
-	"rest/domain"
-	"rest/persistence"
 )
 
 type UserController struct {
@@ -77,7 +77,7 @@ func (controller *UserController) CreateUsers(w http.ResponseWriter, r *http.Req
 		return
 	}
 
-	user.UUID = guuid.New()
+	user.UUID = uuid.New()
 	err = controller.repository.Create(user)
 
 	if err != nil {
