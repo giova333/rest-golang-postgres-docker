@@ -3,5 +3,5 @@
   "DbHost": "localhost",
   "DbUser": "admin",
   "DbPassword": "admin",
-  "DbName": "dpgdirect"
+  "DbName": "users"
 }
