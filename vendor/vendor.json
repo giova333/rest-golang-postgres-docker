@@ -3,6 +3,30 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "+Kfl2frkkBtvaTICw4LJW4yoZ5A=",
+			"path": "github.com/giova333/rest-golang-postgres-docker/configuration",
+			"revision": "3b2e3ddd8181b04ad3fbadeb0f3088c751bed995",
+			"revisionTime": "2021-01-24T18:13:18Z"
+		},
+		{
+			"checksumSHA1": "yvRMRGLt7LWQzZ1HGwaLlh+TBJ0=",
+			"path": "github.com/giova333/rest-golang-postgres-docker/domain",
+			"revision": "3b2e3ddd8181b04ad3fbadeb0f3088c751bed995",
+			"revisionTime": "2021-01-24T18:13:18Z"
+		},
+		{
+			"checksumSHA1": "2KaUfydWB5WDIQWcEiu8idI7o8g=",
+			"path": "github.com/giova333/rest-golang-postgres-docker/persistence",
+			"revision": "3b2e3ddd8181b04ad3fbadeb0f3088c751bed995",
+			"revisionTime": "2021-01-24T18:13:18Z"
+		},
+		{
+			"checksumSHA1": "uc3/RHP4mXrgdnJvoaKgVToX5lI=",
+			"path": "github.com/giova333/rest-golang-postgres-docker/web",
+			"revision": "3b2e3ddd8181b04ad3fbadeb0f3088c751bed995",
+			"revisionTime": "2021-01-24T18:13:18Z"
+		},
+		{
 			"checksumSHA1": "CkWAS9iqW3MPS9XxaP6BZT8HbHE=",
 			"path": "github.com/google/uuid",
 			"revision": "bfb86fa49a73e4194d93bea18d7acfe3694438ce",
