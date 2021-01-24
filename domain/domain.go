@@ -1,4 +1,4 @@
-package models
+package domain
 
 import "github.com/google/uuid"
 
@@ -8,4 +8,6 @@ type (
 		Name     string    `json:"name"`
 		LastName string    `json:"lastname"`
 	}
+
+	Users []User
 )
